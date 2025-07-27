@@ -1,0 +1,211 @@
+html {
+  background-color: hsl(32, 32%, 85%);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  background-color: white;
+  border: 5px solid white;
+  border-radius: 10px;
+  max-width: 850px;
+  margin: 30px auto;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+
+.recipe-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.5s ease;
+  cursor: pointer;
+}
+
+.recipe-image:hover {
+  box-shadow: 0 12px 24px rgb(232, 132, 9);
+}
+
+.recipe-title {
+  font-size: 50px;
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 5px solid hsl(34, 82%, 61%);
+}
+.recipe-title::after {
+  content: 'Trending 🔥';
+  font-size: 20px;
+  margin-left: 50px;
+  color: rgb(19, 44, 69);
+  background-color: rgb(255, 247, 0);
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+.recipe-description {
+  font-size: 20px;
+  color: hsl(30, 10%, 34%);
+  font-family: sans-serif;
+  margin: 0 43px;
+  margin-bottom: 70px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.Preparation-time-title {
+  color: hsl(332, 51%, 32%);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+.Preparation-time-list {
+  color: hsl(30, 10%, 34%);
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-left: 90px;
+  margin-bottom: 70px;
+}
+
+.Ingredients-list-title {
+  color: hsl(14, 45%, 36%);
+  font-size: 40px;
+  margin: 0 40px;
+  margin-bottom: 20px;
+}
+.Ingredients-list {
+  color: hsl(30, 10%, 34%);
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-left: 40px;
+  margin-bottom: 70px;
+}
+
+ul {
+  list-style: none;
+}
+.Preparation-time-list-item::before {
+  content: '➯';
+  margin-right: 10px;
+  color: bisque;
+  background-color: rgb(66, 66, 66);
+  border-radius: 3px;
+}
+.Ingredients-list-item::before {
+  content: '➯';
+  margin-right: 30px;
+  color: bisque;
+  background-color: rgb(66, 66, 66);
+  border-radius: 3px;
+}
+
+.Instructions-list-title {
+  color: hsl(14, 45%, 36%);
+  font-size: 40px;
+  margin: 0 40px;
+  margin-bottom: 20px;
+}
+.Instructions-list {
+  color: hsl(30, 10%, 34%);
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-left: 70px;
+  margin-bottom: 50px;
+}
+ol li::marker {
+  color: rgb(42, 2, 2);
+}
+.space {
+  padding-left: 0.9em;
+}
+
+.nutrition-title {
+  color: hsl(14, 45%, 36%);
+  font-size: 40px;
+  margin: 0 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.table-description {
+  font-size: 18px;
+  color: hsl(30, 10%, 34%);
+  font-family: sans-serif;
+  margin: 0 43px;
+  margin-bottom: 20px;
+}
+
+.nutrition-table {
+  width: 500px;
+  border-collapse: collapse;
+  margin-left: 70px;
+  margin-bottom: 30px;
+}
+
+.nutrition-table tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.nutrition-table td {
+  padding: 14px 8px;
+  font-size: 17px;
+  color: #4a2c1a;
+}
+
+.nutrition-table td:last-child {
+  text-align: right;
+  font-weight: bold;
+}
+
+.react {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.react button {
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 0 6px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.b1 {
+  background-color: hsl(210, 90%, 50%);
+}
+
+.b1:hover {
+  background-color: hsl(210, 63%, 31%);
+}
+
+.b2 {
+  background-color: hsl(340, 80%, 60%);
+}
+
+.b2:hover {
+  background-color: hsl(341, 65%, 35%);
+}
+
+.b3 {
+  background-color: hsl(30, 100%, 50%);
+}
+
+.b3:hover {
+  background-color: hsl(30, 58%, 35%);
+}
